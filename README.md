@@ -10,7 +10,7 @@ tracing media flow
 在用戶登入時會取得member相關的角色資料，並且賦予到User物件身上  
  
 ## 實作查詢單筆公司資料API  
-用戶目前可以使用id查詢到相關的公司資料，並且會針對userDetails的角色權限去做判讀  
+用戶目前可以使用id查詢到相關的公司資料，並且會針對userDetails的角色去判讀是否擁有此存儲權限。
 
 使用三層式架構  
 CompanyController-負責接收用戶請求、轉發請求、產生數據並返回結果   
