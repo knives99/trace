@@ -11,7 +11,7 @@ tracing media flow
 
 實作查詢單筆公司資料API  
 
-使用三層式架構
+使用三層式架構  
 CompanyController-負責接收用戶請求、轉發請求、產生數據並返回結果   
 
 CompanyService-負責業務邏輯操作  
